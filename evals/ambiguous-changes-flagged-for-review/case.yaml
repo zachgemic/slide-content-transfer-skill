@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: ambiguous-changes-flagged-for-review
+expected_outcome: |
+  Reports the swapped logo image, the straightened quotes, the added 'Draft - not for distribution' line, and the dropped word ('all' removed from 'across all segments'). The dropped word is flagged as an error, not a harmless change.
+context:
+  scaffold_script: place-files.sh

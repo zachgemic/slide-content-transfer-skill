@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: clean-deck-reports-clean
+expected_outcome: |
+  Both pairs (slides 1->2 and 3->4) are reported as having no differences. The report does not invent errors. Re-flowed text (a bullet list merged into one paragraph) is not treated as a content error.
+context:
+  scaffold_script: place-files.sh
